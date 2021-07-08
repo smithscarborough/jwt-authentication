@@ -2,6 +2,15 @@ GET http://localhost:3000/posts
 
 ###
 
+# DELETE http://localhost:4000/logout
+# Content-Thpe: application/json
+
+# {
+#    "token": 
+# }
+
+###
+
 POST http://localhost:4000/token 
 Content-Type: application/json
 
